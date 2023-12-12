@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wallpaper"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-182dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+
     <androidx.fragment.app.FragmentContainerView
         android:layout_width="match_parent"
         android:layout_height="650dp"

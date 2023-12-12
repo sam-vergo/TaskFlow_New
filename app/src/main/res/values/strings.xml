@@ -3,4 +3,5 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="timer">Timer</string>
+    <string name="_place_holder_time">00:00:00</string>
 </resources>
