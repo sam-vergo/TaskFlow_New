@@ -35,7 +35,7 @@ class Home : Fragment(R.layout.fragment_home) {
         startPauseButton.setOnClickListener { toggleTimer() }
         resetButton.setOnClickListener { resetTimer() }
 
-        // Restore timer state if fragment is recreated
+
         if (savedInstanceState != null) {
             timerRunning = savedInstanceState.getBoolean(KEY_TIMER_RUNNING)
             timeRemainingMillis = savedInstanceState.getLong(KEY_TIME_REMAINING)
@@ -121,7 +121,7 @@ class Home : Fragment(R.layout.fragment_home) {
     }
 
     companion object {
-        private const val TIMER_DURATION = 1500000 // 1 minute in milliseconds
+        private const val TIMER_DURATION = 1500000 //25 minutes
 
         private const val KEY_TIMER_RUNNING = "timer_running"
         private const val KEY_TIME_REMAINING = "time_remaining"

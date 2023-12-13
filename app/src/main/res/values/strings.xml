@@ -6,4 +6,16 @@
     <string name="_place_holder_time">00:00:00</string>
     <string name="start">Stop</string>
     <string name="stop">Start</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome_back_to_taskflow">Welcome back to TaskFlow</string>
+    <string name="log_out">Log out</string>
+    <string name="settings">Settings</string>
 </resources>

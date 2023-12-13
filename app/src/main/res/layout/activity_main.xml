@@ -33,7 +33,8 @@
         android:layout_marginBottom="17dp"
         android:background="@drawable/timer"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:backgroundTint="#A9F0FA"/>
 
     <Button
         android:id="@+id/tasks_button"
@@ -46,7 +47,8 @@
         android:background="@drawable/tasks"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/settings_button"
-        app:layout_constraintStart_toEndOf="@+id/home_button" />
+        app:layout_constraintStart_toEndOf="@+id/home_button"
+        app:backgroundTint="#A9F0FA"/>
 
     <Button
         android:id="@+id/settings_button"
@@ -59,7 +61,8 @@
         android:layout_marginBottom="17dp"
         android:background="@drawable/settings"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:backgroundTint="#A9F0FA"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
